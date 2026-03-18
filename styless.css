@@ -1,0 +1,32 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-image: url('https://i.pinimg.com/736x/e2/06/53/e20653e7b5b75130f4313fd6191eb5a4.jpg');
+    background-size: cover;    
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed;
+    color: #1C1C1C;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+button {
+    background: #9F9941;
+    color: #EEF0EF;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
